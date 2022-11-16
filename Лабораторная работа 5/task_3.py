@@ -1,7 +1,7 @@
 from random import sample
 
 def get_unique_list_numbers() -> list[int]:
-    numbers = sample(range(-10,10), 15)
+    numbers = sample(range(-10,11), 15)
     return numbers
 
 list_unique_numbers = get_unique_list_numbers()
